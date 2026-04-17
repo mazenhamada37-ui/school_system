@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Grades/style/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Grades</title>
+</head>
+
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="brand">
+                <h2>Atelier Scholar</h2>
+            </div>
+
+            <div class="user-profile-sm">
+                <img src="../Grades/images/Student profile picture (1).png" alt="User">
+                <div class="user-info">
+                    <span class="name">Alex Rivera</span>
+                    <span class="grade">Grade 11 • Section A</span>
+                </div>
+            </div>
+
+            <nav class="side-nav">
+                <a href="../My Courses/index.html"><i class="fas fa-book-open"></i> Courses</a>
+                <a href="../Assignments/index.html"><i class="far fa-clipboard"></i> Assignments</a>
+                <a href="#" class="active"><i class="fa-solid fa-star"></i> Grades</a>
+            </nav>
+
+            <button class="btn-support">Support</button>
+        </aside>
+
+        <main class="main-content">
+            <header class="navbar">
+                <div class="logo-text">Scholar Slate</div>
+                <div class="nav-links">
+                    <a href="#">My Progress</a>
+                    <a href="#">Campus Life</a>
+                    <a href="#">Resources</a>
+                    <div class="nav-icons">
+                        <i class="fa-regular fa-bell"></i>
+                        <i class="fa-solid fa-gear"></i>
+                        <div class="profile-circle"><img src="../Grades/images/Student profile picture (1).png"
+                                alt="User"></div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="content-wrapper">
+                <div class="gpa-card">
+                    <p class="gpa-label">Current Cumulative GPA</p>
+                    <h1 class="gpa-value">3.88 <span>/ 4.0</span></h1>
+                    <div class="badges">
+                        <span class="badge">Top 5% of Class</span>
+                        <span class="badge">Dean's List Candidate</span>
+                    </div>
+                </div>
+
+                <div class="performance-section">
+                    <div class="perf-header">
+                        <div>
+                            <h3>Academic Performance</h3>
+                            <p class="sub-text">Fall Semester 2023 • Detailed Breakdown</p>
+                        </div>
+                        <div class="perf-actions">
+                            <button class="btn-action"><i class="fa-solid fa-sliders"></i> Filter</button>
+                            <button class="btn-action"><i class="fa-solid fa-download"></i> Export PDF</button>
+                        </div>
+                    </div>
+
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>COURSE</th>
+                                <th>ASSIGNMENT</th>
+                                <th>WEIGHT</th>
+                                <th>GRADE</th>
+                                <th>STATUS</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>AP Calculus BC</strong><small>MATH-402</small></td>
+                                <td>Midterm Examination</td>
+                                <td>30%</td>
+                                <td class="grade blue-text">96%</td>
+                                <td><span class="tag tag-blue">EXCEEDS</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Advanced Literature</strong><small>ENGL-310</small></td>
+                                <td>Comparative Essay</td>
+                                <td>15%</td>
+                                <td class="grade">88%</td>
+                                <td><span class="tag tag-grey">PROFICIENT</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Physics II (Honors)</strong><small>PHYS-201</small></td>
+                                <td>Lab Report: Electromagnetism</td>
+                                <td>10%</td>
+                                <td class="grade blue-text">100%</td>
+                                <td><span class="tag tag-purple">PERFECT</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Modern World History</strong><small>HIST-105</small></td>
+                                <td>Final Thesis Project</td>
+                                <td>40%</td>
+                                <td class="grade">92%</td>
+                                <td><span class="tag tag-blue">EXCEEDS</span></td>
+                            </tr>
+                            <tr>
+                                <td><strong>Computer Science</strong><small>CS-200</small></td>
+                                <td>Data Structures Quiz</td>
+                                <td>5%</td>
+                                <td class="grade red-text">74%</td>
+                                <td><span class="tag tag-red">DEVELOPING</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+
+
+</body>
+
+</html>
